@@ -1,0 +1,7 @@
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\obj\Debug\Dominio1.csproj.AssemblyReference.cache
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\obj\Debug\Dominio1.csproj.CoreCompileInputs.cache
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\bin\Debug\Dominio1.dll.config
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\bin\Debug\Dominio1.dll
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\bin\Debug\Dominio1.pdb
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\obj\Debug\Dominio1.dll
+C:\Users\Tiziano\source\repos\Practica2_Eventos\Dominio1\obj\Debug\Dominio1.pdb
