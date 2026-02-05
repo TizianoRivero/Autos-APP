@@ -17,6 +17,11 @@ namespace Practica2_Eventos
         
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+            
+
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
             UsuarioNegocio negocio = new UsuarioNegocio();
             Usuario user = negocio.Login(txtEmail.Text, txtPassword.Text);
 

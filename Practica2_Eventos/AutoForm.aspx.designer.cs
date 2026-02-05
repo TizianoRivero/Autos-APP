@@ -60,6 +60,7 @@ namespace Practica2_Eventos
         protected global::System.Web.UI.WebControls.TextBox TxtFecha;
 
         /// <summary>
+<<<<<<< HEAD
         /// Control lblError.
         /// </summary>
         /// <remarks>
@@ -69,6 +70,8 @@ namespace Practica2_Eventos
         protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         /// Control chkUsado.
         /// </summary>
         /// <remarks>

@@ -49,7 +49,11 @@ namespace Dominio1
             }
         }
 
+<<<<<<< HEAD
         public int agregar(Auto auto)
+=======
+        public void agregar(Auto auto)
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         {
             string conexion = ConfigurationManager
                 .ConnectionStrings["ConexionAutos"]
@@ -57,9 +61,14 @@ namespace Dominio1
 
             SqlConnection con = new SqlConnection(conexion);
             SqlCommand cmd = new SqlCommand(
+<<<<<<< HEAD
                 @"INSERT INTO Autos (Modelo, Descripcion, Color, Fecha, Usado, Importado)
           VALUES (@Modelo, @Descripcion, @Color, @Fecha, @Usado, @Importado);
           SELECT SCOPE_IDENTITY();", con);
+=======
+             "INSERT INTO Autos (Modelo, Descripcion, Color, Fecha, Usado, Importado) " +
+             "VALUES (@Modelo, @Descripcion, @Color, @Fecha, @Usado, @Importado)", con);
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
 
             cmd.Parameters.AddWithValue("@Modelo", auto.Modelo);
             cmd.Parameters.AddWithValue("@Descripcion", auto.Descripcion);
@@ -69,11 +78,16 @@ namespace Dominio1
             cmd.Parameters.AddWithValue("@Importado", auto.Importado);
 
             con.Open();
+<<<<<<< HEAD
             int idGenerado = Convert.ToInt32(cmd.ExecuteScalar());
             con.Close();
 
             auto.Id = idGenerado;
             return idGenerado;
+=======
+            cmd.ExecuteNonQuery();
+            con.Close();
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         }
 
         public void modificar(Auto auto)
@@ -145,6 +159,7 @@ namespace Dominio1
             cmd.ExecuteNonQuery();
             con.Close();
         }
+<<<<<<< HEAD
 
         public EstadisticasDashboard ObtenerEstadisticas()
         {
@@ -164,5 +179,7 @@ namespace Dominio1
 
             return stats;
         }
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
     }
 }

@@ -12,6 +12,7 @@
         .table-hover tbody tr:hover {
             background-color: #f8f9fa;
         }
+<<<<<<< HEAD
         body {
             background-color: #121212;
         }
@@ -35,6 +36,14 @@
         }
 </script>
 
+=======
+
+        body {
+            background-color: #121212;
+        }
+    </style>
+
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
     <asp:UpdatePanel runat="server" UpdateMode="Conditional">
     <ContentTemplate>
 
@@ -48,8 +57,12 @@
                         ID="txtFiltro"
                         runat="server"
                         CssClass="form-control"
+<<<<<<< HEAD
                         placeholder="Buscar modelo..." 
                         onkeydown="return filtrarConEnter(event);"/>
+=======
+                        placeholder="Buscar modelo..." />
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                 </div>
 
                 <!-- Color -->
@@ -63,8 +76,11 @@
                         <asp:ListItem Text="Negro" />
                         <asp:ListItem Text="Azul" />
                         <asp:ListItem Text="Rojo" />
+<<<<<<< HEAD
                         <asp:ListItem Text="Gris" />
                         <asp:ListItem Text="Amarillo" />
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                     </asp:DropDownList>
                 </div>
 
@@ -110,11 +126,14 @@
             </div>
 
             <div class="card-body">
+<<<<<<< HEAD
                 <asp:Label
                     ID="lblResultados"
                     runat="server"
                     CssClass="text-muted text-center d-block mb-2"
                     Visible="false" />
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                 <asp:GridView
                     runat="server"
                     ID="dgvAutos"
@@ -126,9 +145,16 @@
                     OnRowDataBound="dgvAutos_RowDataBound"
                     RowStyle-CssClass="align-middle"
                     AllowPaging="true"
+<<<<<<< HEAD
                     PageSize="8"
                     OnPageIndexChanging="dgvAutos_PageIndexChanging"
                     >
+=======
+                    PageSize="5"
+                    OnPageIndexChanging="dgvAutos_PageIndexChanging"
+                    PagerStyle-HorizontalAlign="Center"
+                    PagerStyle-CssClass="text-center mt-3">
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
 
                     <Columns>
                         <asp:BoundField HeaderText="Modelo" DataField="Modelo" />
@@ -151,7 +177,11 @@
                             ButtonType="Button"
                             ControlStyle-CssClass="btn btn-sm btn-warning me-1" />
 
+<<<<<<< HEAD
                         <asp:TemplateField>
+=======
+                        <asp:TemplateField HeaderText="Acciones">
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                             <ItemTemplate>
                                 <asp:LinkButton
                                     ID="btnBorrar"
@@ -164,6 +194,7 @@
                             </ItemTemplate>
                         </asp:TemplateField>
 
+<<<<<<< HEAD
                         <asp:TemplateField>
                             <ItemTemplate>
                                 <a
@@ -197,6 +228,9 @@
                             </ul>
                         </nav>
                     </PagerTemplate>
+=======
+                    </Columns>
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                 </asp:GridView>
             </div>
         </div>

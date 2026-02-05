@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|c:\\users\\tiziano\\source\\repos\\practica2_eventos\\practica2_eventos\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\autoform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\autoform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\autoform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\autoform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\dominio1\\usuarionegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|solutionrelative:dominio1\\usuarionegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\dominio1\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|solutionrelative:dominio1\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\dominio1\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F640AF-6D10-49EC-A623-0CB7EFE32033}|Dominio1\\Dominio1.csproj|solutionrelative:dominio1\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\practica2_eventos\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0D550C32-A407-4020-8752-92ED7A85894C}|Practica2_Eventos\\Practica2_Eventos.csproj|solutionrelative:practica2_eventos\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Login.aspx",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Login.aspx",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Login.aspx",
+              "RelativeToolTip": "Practica2_Eventos\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-31T13:04:57.286Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoForm.aspx",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\AutoForm.aspx",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\AutoForm.aspx",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\AutoForm.aspx",
+              "RelativeToolTip": "Practica2_Eventos\\AutoForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T16:40:50.127Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Site.Master",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Site.Master",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Site.Master",
+              "RelativeToolTip": "Practica2_Eventos\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T13:04:49.198Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Default.aspx",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Default.aspx",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Default.aspx",
+              "RelativeToolTip": "Practica2_Eventos\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-01-28T13:05:41.256Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Site.Master.cs",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Site.Master.cs",
+              "RelativeToolTip": "Practica2_Eventos\\Site.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T12:27:18.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Login.aspx.cs",
+              "RelativeToolTip": "Practica2_Eventos\\Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:05:37.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\UsuarioNegocio.cs",
+              "RelativeDocumentMoniker": "Dominio1\\UsuarioNegocio.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\UsuarioNegocio.cs",
+              "RelativeToolTip": "Dominio1\\UsuarioNegocio.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:03:22.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio1\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\Usuario.cs",
+              "RelativeToolTip": "Dominio1\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:02:10.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\AutoForm.aspx.cs",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\AutoForm.aspx.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\AutoForm.aspx.cs",
+              "RelativeToolTip": "Practica2_Eventos\\AutoForm.aspx.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T16:57:28.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Practica2_Eventos\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Practica2_Eventos\\Default.aspx.cs",
+              "RelativeToolTip": "Practica2_Eventos\\Default.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:35:00.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Auto.cs",
+              "DocumentMoniker": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\Auto.cs",
+              "RelativeDocumentMoniker": "Dominio1\\Auto.cs",
+              "ToolTip": "C:\\Users\\Tiziano\\source\\repos\\Practica2_Eventos\\Dominio1\\Auto.cs",
+              "RelativeToolTip": "Dominio1\\Auto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T13:38:02.672Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

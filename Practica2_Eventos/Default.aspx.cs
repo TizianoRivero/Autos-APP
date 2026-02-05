@@ -28,6 +28,7 @@ namespace Practica2_Eventos
             }
 
         }
+<<<<<<< HEAD
         private bool HayFiltrosActivos()
         {
             return
@@ -57,6 +58,8 @@ namespace Practica2_Eventos
             lblResultados.Text = $"Mostrando {desde} a {hasta} de {total} autos filtrados";
             lblResultados.Visible = true;
         }
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
 
         protected void dgvAutos_RowDataBound(object sender, GridViewRowEventArgs e)
         {
@@ -76,6 +79,7 @@ namespace Practica2_Eventos
                     ? "badge bg-warning text-dark"
                     : "badge bg-info text-dark";
             }
+<<<<<<< HEAD
             if (e.Row.RowType == DataControlRowType.Pager)
             {
                 var btnPrev = (LinkButton)e.Row.FindControl("btnPrev");
@@ -87,6 +91,9 @@ namespace Practica2_Eventos
                 if (btnNext != null)
                     btnNext.Enabled = dgvAutos.PageIndex < dgvAutos.PageCount - 1;
             }
+=======
+
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         }
 
         protected void dgvAutos_SelectedIndexChanged(object sender, EventArgs e)
@@ -109,6 +116,7 @@ namespace Practica2_Eventos
 
         protected void dgvAutos_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
+<<<<<<< HEAD
             int nuevoIndex = e.NewPageIndex;
 
             if (nuevoIndex < 0)
@@ -118,6 +126,9 @@ namespace Practica2_Eventos
                 nuevoIndex = dgvAutos.PageCount - 1;
 
             dgvAutos.PageIndex = nuevoIndex;
+=======
+            dgvAutos.PageIndex = e.NewPageIndex;
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
             CargarListaFiltrada();
         }
 
@@ -137,9 +148,13 @@ namespace Practica2_Eventos
             dgvAutos.DataSource = negocio.listar();
             dgvAutos.DataBind();
 
+<<<<<<< HEAD
             dgvAutos.PageIndex = 0;
             lblVacio.Visible = false;
             CargarListaFiltrada();
+=======
+            lblVacio.Visible = false;
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         }
 
         private void CargarListaFiltrada()
@@ -174,16 +189,20 @@ namespace Practica2_Eventos
                     .ToList();
             }
 
+<<<<<<< HEAD
             int pageCount = (int)Math.Ceiling((double)lista.Count / dgvAutos.PageSize);
             if (dgvAutos.PageIndex >= pageCount)
             {
                 dgvAutos.PageIndex = 0;
             }
 
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
             dgvAutos.DataSource = lista;
             dgvAutos.DataBind();
 
             lblVacio.Visible = lista.Count == 0;
+<<<<<<< HEAD
 
             ActualizarMensajeResultados(lista.Count);
 
@@ -191,6 +210,8 @@ namespace Practica2_Eventos
             {
                 lblResultados.Visible = false;
             }
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
         }
     }
 }

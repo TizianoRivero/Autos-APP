@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Data.SqlClient;
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -25,10 +28,15 @@ namespace Practica2_Eventos
                 ddlColores.Items.Add("Azul");
                 ddlColores.Items.Add("Rojo");
                 ddlColores.Items.Add("Negro");
+<<<<<<< HEAD
                 ddlColores.Items.Add("Gris");
                 ddlColores.Items.Add("Amarillo");
 
 
+=======
+
+                
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                 if (Request.QueryString["id"] != null)
                 {
                     int id = int.Parse(Request.QueryString["id"]);
@@ -54,8 +62,11 @@ namespace Practica2_Eventos
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             lblError.Visible = false;
 
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
             Auto a = new Auto();
 
             if (Request.QueryString["id"] != null)
@@ -64,6 +75,7 @@ namespace Practica2_Eventos
             a.Modelo = TxtModelo.Text;
             a.Descripcion = TxtDescripcion.Text;
             a.Color = ddlColores.SelectedValue;
+<<<<<<< HEAD
             DateTime fecha;
 
             if (!DateTime.TryParse(TxtFecha.Text, out fecha))
@@ -75,11 +87,15 @@ namespace Practica2_Eventos
             }
 
             a.Fecha = fecha;
+=======
+            a.Fecha = DateTime.Parse(TxtFecha.Text);
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
             a.Usado = chkUsado.Checked;
             a.Importado = RdbImportado.Checked;
 
             AutoNegocio negocio = new AutoNegocio();
 
+<<<<<<< HEAD
             int idAuto;
 
             if (Request.QueryString["id"] != null)
@@ -103,6 +119,12 @@ namespace Practica2_Eventos
                     ? "Se modificaron los datos del vehículo"
                     : "Se dio de alta el vehículo"
             });
+=======
+            if (Request.QueryString["id"] != null)
+                negocio.modificar(a);
+            else
+                negocio.agregar(a);
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
 
             Response.Redirect("Default.aspx");
         }

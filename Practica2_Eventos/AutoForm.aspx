@@ -54,12 +54,17 @@
                         </div>
 
                         <div class="mb-3">
+<<<<<<< HEAD
                             <label class="form-label">Fecha de ingreso</label>
+=======
+                            <label class="form-label">Fecha</label>
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                             <asp:TextBox
                                 runat="server"
                                 ID="TxtFecha"
                                 TextMode="Date"
                                 CssClass="form-control" />
+<<<<<<< HEAD
 
                             <asp:Label
                                 ID="lblError"
@@ -70,6 +75,10 @@
 
                         
 
+=======
+                        </div>
+
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                         <div class="form-check mb-3">
                             <input
                                 class="form-check-input"
@@ -105,8 +114,11 @@
                                 runat="server"
                                 OnClick="Button1_Click" />
 
+<<<<<<< HEAD
                             
 
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
                             <a href="Default.aspx" class="btn btn-secondary">Cancelar
                         </a>
                         </div>

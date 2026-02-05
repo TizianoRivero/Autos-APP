@@ -49,9 +49,12 @@
   <ItemGroup>
     <Compile Include="Auto.cs" />
     <Compile Include="AutoNegocio.cs" />
+<<<<<<< HEAD
     <Compile Include="EstadisticasDashboard.cs" />
     <Compile Include="HistorialAuto.cs" />
     <Compile Include="HistorialAutoNegocio.cs" />
+=======
+>>>>>>> d307e7339e7e932130540a6fe9099db4c9d69add
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="UsuarioNegocio.cs" />
